@@ -1,7 +1,39 @@
 package review
 
+import kotlin.system.exitProcess
+
+// Public class default
+class A{
+    val id =1
+}
+
+//Private class
+private class B{
+    val id = 2
+}
+
+//Internal class
+internal class C{
+    val id = 3
+}
+/**
+Visibility
+package:
+public - default. Everywhere
+private - file
+internal - module
+
+class:
+    sealed - only subclass in same file
+
+inside class:
+    public - default. Everywhere.
+private - inside class, not subclasses
+protected - inside class and subclasses
+internal - module */
+/////////////////////////////////////////
 fun main() {
-    println("Starting review...")
+    println("Starting review... ${C().id} ${B().id} ${A().id}")
     var number: Int = 5
     number++
     println(number)

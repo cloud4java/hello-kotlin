@@ -29,6 +29,7 @@ fun main(args: Array<String>) {
 
     println("Warior $luke has a $sabeColor saber and his name is ${luke.toUpperCase()} ")
 
+    println ("fish" == "fish")
 //            .filter { i -> !" ".equals(i)&& !"\r\n".equals(i) }
 //            .filter { e->"w".contentEquals (e) }
 //            .filter { i-> i % 2=0 }

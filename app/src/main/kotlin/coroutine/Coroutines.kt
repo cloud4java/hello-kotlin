@@ -21,17 +21,3 @@ fun longJob() {
     java.lang.Thread.sleep(1000)
     println("Long JOb")
 }
-//
-//var sequence2 = bgSequence2 {
-//
-//}
-
-val aa = { 1 }
-val baaa = { 1 }
-//
-//class Coroutines {
-//    var sequence = beginSequence {
-////    yield(1)
-//        println()
-//    }
-//}
